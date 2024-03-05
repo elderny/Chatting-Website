@@ -1,6 +1,6 @@
-
 # ChatApp
 
+![Chatting Website](https://github.com/elderny/Chatting-Website/blob/main/Screenshot%202024-03-05%20084413.png "Chatting Website")
 ChatApp is a real-time chatting application built with Node.js and Socket.io, allowing users to create rooms, join existing ones, and exchange messages instantly. Data, including user information and chat messages, is stored in a JSON file, making it easy to manage and persist chat history.
 
 ## Features
