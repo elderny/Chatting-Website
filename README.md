@@ -19,7 +19,7 @@ Before you begin, ensure you have installed the latest version of [Node.js](http
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/ChatApp.git
+git clone https://github.com/elderny/Chatting-Website
 cd ChatApp
 ```
 
