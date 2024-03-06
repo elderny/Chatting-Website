@@ -32,6 +32,7 @@ io.on('connection', socket => {
             const message = { user: 'default', message: `${userName} has left the room` }
             socket.to(tempRoom).emit('newMessage', message)
             chats[tempRoom].push(message)
+            //Bug Fixed, it was update(chats) changed to update("chats")
             update("chats")
             socket.leave(users[userName].roomId)
         }
@@ -53,6 +54,7 @@ io.on('connection', socket => {
             const message = { user: 'default', message: `${userName} has left the room` }
             socket.to(tempRoom).emit('newMessage', message)
             chats[tempRoom].push(message)
+            //Bug Fixed, it was update(chats) changed to update("chats")
             update("chats")
             socket.leave(users[userName].roomId)
         }
